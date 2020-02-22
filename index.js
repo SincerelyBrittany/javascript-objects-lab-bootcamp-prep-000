@@ -54,6 +54,10 @@ function deleteFromObjectByKey(object, key){
 //       destructivelyDeleteFromObjectByKey(object, key)
 //         returns object without the delete key/value pair:
 
+function destructivelyDeleteFromObjectByKey(object, key){
+  object =[key,value];
+  return object
+}
 
 //   8) Objects
 //       destructivelyDeleteFromObjectByKey(object, key)
