@@ -39,6 +39,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 //       deleteFromObjectByKey(object, key)
 //         deletes `key` from a clone of object and returns the new object (it isnon-destructive):
 
+function deleteFromObjectByKey(object, key){
+  object =[key,value];
+  return object
+}
+
 
 //   6) Objects
 //       deleteFromObjectByKey(object, key)
