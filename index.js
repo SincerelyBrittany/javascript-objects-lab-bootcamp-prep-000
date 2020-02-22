@@ -37,8 +37,9 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 //         does not modify the original object (it is non-destructive):
 
 function deleteFromObjectByKey(object, key){
-  object =[key,value];
-  delete object
+ delete object[key]
+
+  return object
 }
 
 
@@ -52,6 +53,7 @@ function deleteFromObjectByKey(object, key){
 //         modifies the original object:
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  object =[key,value];
+ delete object[key]
+
   return object
 }
