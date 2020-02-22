@@ -11,11 +11,6 @@ function updateObjectWithKeyAndValue(object, key, value){
 //       updateObjectWithKeyAndValue(object, key, value)
 //         does not modify the original object, but rather returns a clone with the new data:
 
-function updateObjectWithKeyAndValue(object, key, value){
-  
-}
-
-
 //   3) Objects
 //       updateObjectWithKeyAndValue(object, key, value)
 //         returns an object with an updated key value pair:
